@@ -8,7 +8,7 @@
 
 - Android 4.4+
 
-## Example
+## Example2
 
 To run the example project, clone the repo, and run `MainActivity`
 
