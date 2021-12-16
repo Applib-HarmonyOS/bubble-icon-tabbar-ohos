@@ -84,7 +84,7 @@ Sync project and now you can use bubbleicontabbar library
 
 Add `TabBubbleAnimator` `TextColorTransition` and content of res package to your project
 
-## Usage
+## Usage5
 
 Add TabLayout to your xml with tabGravity="fill", tabIndicatorHeight="0dp" and tabMode="fixed"
 
