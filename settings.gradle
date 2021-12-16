@@ -1,2 +1,1 @@
-include ':app', ':bubbleicontabbarandroid'
-rootProject.name='BubbleTabSampleApp'
+include ':entry', ':bubbleicontabbarohos'
