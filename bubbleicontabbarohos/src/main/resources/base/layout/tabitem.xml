@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                 ohos:id="$+id:tab"
+                 ohos:width="match_content"
+                 ohos:height="match_content"
+                 ohos:layout_alignment="bottom" >
+
+    <StackLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:id="$+id:innertab"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:orientation="horizontal"
+        ohos:padding="30vp"
+        >
+        <Text
+            ohos:id="$+id:tabtext"
+            ohos:visibility="visible"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="30vp"/>
+
+        <Image
+            ohos:id="$+id:tabimage"
+            ohos:height="80vp"
+            ohos:width="80vp" />
+
+
+    </StackLayout>
+
+    <Image
+        ohos:id="$+id:bgImage"
+        ohos:height="0vp"
+        ohos:width="0vp"
+        ohos:visibility="invisible"
+        ohos:align_start="$id:innertab"
+        ohos:align_end="$id:innertab"
+        ohos:align_top="$id:innertab"
+        ohos:align_bottom="$id:innertab"/>
+</DependentLayout>
